@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: grey;
+  background-color: #7fffd4;
 }
 
 h1 {
@@ -22,10 +22,15 @@ span {
   color: #7fffd4;
 }
 
+.buttons {
+  padding-top: 15px;
+  text-align: center;
+}
+
 #grid {
   width: 484px;
   height: 484px;
-  margin: 30px auto;
+  margin: 25px auto;
   border: 2px solid black;
 }
 

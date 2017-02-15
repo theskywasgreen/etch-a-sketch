@@ -5,6 +5,17 @@ $(document).ready(function() {
     };
   };
   $(".square").mouseenter(function() {
-        $(this).css("background-color", "#7fffd4");
+    $(this).css("background-color", "#7fffd4");
+  });
+  $("#clear").click(function() {
+    $(".square").css("background-color", "white");
   });
 });
+
+
+
+  //Function to create every square produce a random color upon mouse entering.
+  //$(".square").mouseenter(function() {
+  //var randomColorChange = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+    //$(this).css('background-color', randomColorChange);
+    //});

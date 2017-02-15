@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: grey;
+}
+
+h1 {
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+  background-color: #191919;
+}
+
+span {
+  text-decoration: underline;
+  color: #7fffd4;
+}
+
+#grid {
+  width: 484px;
+  height: 484px;
+  margin: 30px auto;
+  border: 2px solid black;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    outline: 1px solid black;
+    float: left;
+    background: #FFFFFF;
+}

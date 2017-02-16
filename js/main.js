@@ -44,14 +44,27 @@ $(document).ready(function() {
     });
 
     $("#clear").click(function() {
-    clearGrid();
-    createGrid(16);
+      clearGrid();
+      createGrid(16);
+
+    $(".square").mouseenter(set_default_color);
+    });
+
+    $("#usersquares").click(function() {
+      refreshGrid();
 
       $(".square").mouseenter(set_default_color);
     });
 
-    $("#usersquares").click(function() {
-          refreshGrid();
-          $(".square").mouseenter(set_default_color);
+    $("#mint").click(function() {
+      $(".square").mouseenter(set_default_color);
+    });
+
+    $("#clear, #randomcolor, #usersquares, #mint").mouseenter(function() {
+      $(this).fadeTo("fast", 0.85);
+    });
+
+    $("#clear, #randomcolor, #usersquares, #mint").mouseleave(function() {
+      $(this).fadeTo("fast", 1);
     });
 });

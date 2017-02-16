@@ -7,12 +7,12 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: white;
+  background-color: #f7f7f7;
   height: 100%;
 }
 
 h1 {
-  color: white;
+  color: #f7f7f7;
   padding-top: 8px;
   padding-bottom: 8px;
   text-align: center;
@@ -22,6 +22,7 @@ h1 {
 span {
   text-decoration: underline;
   color: #7fffd4;
+  font-style: italic;
 }
 
 .buttons {
@@ -31,12 +32,12 @@ span {
   margin: 0 auto;
 }
 
-#clear, #randomcolor, #usersquares {
+#clear, #randomcolor, #usersquares, #mint {
   margin: 5px;
   padding: 8px;
-  border-radius: 2px;
+  border-radius: 4px;
   background-color: #191919;
-  color: white;
+  color: #f7f7f7;
 }
 
 .container {

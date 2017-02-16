@@ -7,12 +7,13 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #7fffd4;
+  background-color: white;
 }
 
 h1 {
   color: white;
-  padding-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   text-align: center;
   background-color: #191919;
 }
@@ -23,22 +24,36 @@ span {
 }
 
 .buttons {
-  padding-top: 15px;
+  padding-top: 10px;
   text-align: center;
+  width: 480px;
+  margin: 0 auto;
+}
+
+#clear, #randomcolor, #usersquares {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 1px;
+  background-color: #191919;
+  color: white;
+}
+
+.container {
+  margin-top: 20px;
 }
 
 #grid {
   width: 484px;
   height: 484px;
-  margin: 25px auto;
-  border: 2px solid black;
+  margin: 10px auto;
+  border: 2px solid #191919;
+  box-shadow: 2px 2px 30px 10px #b2b2b2;
 }
 
 .square {
-    width: 30px;
-    height: 30px;
-    margin: 0px;
-    outline: 1px solid black;
-    float: left;
-    background: #FFFFFF;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  float: left;
+  background: white;
 }

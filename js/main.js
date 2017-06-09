@@ -30,7 +30,6 @@ function refreshGrid(){
 // create a 16x16 grid when the page loads
 // creates a hover effect that changes the color of a square to mint when the mouse passes over it, leaving a (pixel) trail through the grid
 // allows the click of a button to prompt the user to create a new grid
->>>>>>> bcbae983907e8af5b9e808c855d06c2352b14e32
 $(document).ready(function() {
     createGrid(16);
 

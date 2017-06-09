@@ -11,18 +11,28 @@ body {
   height: 100%;
 }
 
+header {
+  background-color: #191919;
+  height: 50px;
+}
+
 h1 {
   color: #f7f7f7;
   padding-top: 8px;
   padding-bottom: 8px;
-  text-align: center;
-  background-color: #191919;
+  position: absolute;
+  margin-left: 41.5%;
 }
+
+#github {
+  float: right;
+  padding: 10px 20px 0 0;
+}
+
 
 span {
   text-decoration: underline;
   color: #7fffd4;
-  font-style: italic;
 }
 
 .buttons {
@@ -33,30 +43,37 @@ span {
 }
 
 #clear, #randomcolor, #usersquares, #mint {
-  margin: 5px;
+  margin: 18px 5px 5px 5px;
   padding: 8px;
   border-radius: 4px;
   background-color: #191919;
   color: #f7f7f7;
 }
 
-.container {
-  margin-top: 5px;
+#clear, #usersquares {
+  float: left;
 }
 
+#randomcolor, #mint {
+  float: right;
+}
+
+/* size and position of etch a sketch canvas */
 #grid {
+  clear: both;
   position: relative;
 	top: 10px;
-	outline:2px solid #000;
+	outline: 2px solid #000;
 	font-size: 0;
 	margin:auto;
-	height:480px;
-	width:480px;
+	height: 480px;
+	width: 480px;
 	padding: 0;
 	border: none;
   box-shadow: 2px 2px 30px 10px #b2b2b2;
 }
 
+/* creates the pixel effect on #grid */
 .square {
   margin:0;
 	padding:0;
